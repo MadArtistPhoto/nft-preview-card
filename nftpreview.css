@@ -1,0 +1,169 @@
+/* stylesnew.css */
+
+:root
+{
+    box-sizing: border-box;
+    --background: hsl(0, 0%, 94%);
+    --body-color: hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --linecolor: hsl(215, 32%, 27%);
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --white: hsl(0, 0%, 100%);
+    --box-shadow: #aaa;
+
+    font-size: 18px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    min-width: 375px;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container
+{
+    height: 100%;
+    width: 100%;
+    background-color: var(--body-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px 10px 20px var(--box-shadow);
+}
+
+img:not(.notimg)
+{
+    width: 100%;
+    height: 100%;
+}
+
+img
+{
+    display: block;
+}
+
+main
+{
+    max-width: 375px;
+    background-color:var(--card-color);
+    border-radius: 20px;
+    color: var(--white);
+    margin: auto;
+}
+
+
+figure
+{
+    width: 87%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    
+}
+
+figure img
+{
+    border-radius: 10px;
+}
+
+figcaption
+{
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.softblue
+{
+    color: var(--softblue);
+}
+
+.cyan
+{
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    line-height: 1.5rem;  
+}
+
+p
+{
+    margin: 20px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: .06rem;
+}
+
+.jules:hover, figcaption:hover
+{
+    color: var(--softblue);
+    cursor: pointer;
+}
+
+.inline
+{
+    margin: 20px;
+    margin-bottom: 1.5rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ .inline span
+ {
+    display: flex;
+    align-items: center;
+ }
+
+hr
+ {
+    color: var(--linecolor);
+    margin: 15px;    
+ }
+
+ .border
+ {
+    display: inline;
+    border-radius: 50%;
+    border: 1px solid white;
+ }
+ 
+ .create
+ {
+    display: flex;
+    margin: 20px 15px 25px 15px;
+    align-items: center;
+ }
+
+ .spacing
+ {
+    margin-left: 15px;
+ }
+
+
+ @media screen and (min-width:600px)
+ {
+    body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container
+    {
+        width: 90%;
+        max-width: 1440px;
+        height: 800px;
+    }
+}
