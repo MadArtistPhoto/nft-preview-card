@@ -38,14 +38,14 @@ Users should be able to:
 ### Built with
 
 - Visual Studio Code
-- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 - ZonerX (for viewing the supplied images)
 - Paint.net (for creating the hover effect of the main image)
 - Filezilla (for transferring files to free website host)
-- ByetHost (for hosting the files)
-- GitHub (to become more familiar with it)
+- ByetHost (for hosting the files I am working on so I can view them on my phones and ipad)
+- GitHub Pages
+- GitHub (still very un-intuitive, but I'm learning)
 
 ### What I learned
 
@@ -57,9 +57,13 @@ Users should be able to:
 
 ### Continued development
 
-While I am doing mobile-first work, and now using an older, smaller phone, I have become more aware of using multiple media queries for different size screens. I will be working harder to make things look good on my small phone, larger phone, 11" ipad, and computer screen.
+A while back I added a second monitor to my computer. That has made coding so much more delightful. I gives me the ability to have Visual Studio Code open in full screen on one monitor and the page I am working on open in Live Mode in full screen in the other monitor. I highly recommend this upgrade if space, finances, and computer all allow it.
 
-I am also trying to use the README.md files as a place not only for others to see my thoughts, but also as a type of journal to track my progress.
+Adding the older, smaller phone to my arsenal has made me become more aware of using multiple media queries for different size screens. I will be working harder to make things look good on my old small phone, new larger phone, 11" ipad, and computer screen.
+
+I am trying to use the README.md files as a place not only for others to see my thoughts, but also as a type of journal to track my progress.
+
+I am learning more about GitHub Pages. I hope to be able to seamlessly go from VSC to GitHub to GitHub Pages so I can view what I am working on with my phones and ipad in almost real time. 
 
 
 
