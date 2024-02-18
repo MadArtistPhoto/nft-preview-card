@@ -69,7 +69,7 @@ I am learning more about GitHub Pages. I hope to be able to seamlessly go from V
 
 ## Author
 
-- Website - [MY Frontend Mentor Landing Page](https://www.madartistphoto.byethost5.com.com)
+- Website - [MY Frontend Mentor Landing Page](https://madartistphoto.github.io/FM-Landing-Page/)
 - Frontend Mentor - [John](https://www.frontendmentor.io/profile/MadArtistPhoto)
 
 ## Acknowledgments
