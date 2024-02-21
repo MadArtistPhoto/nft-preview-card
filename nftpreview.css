@@ -106,7 +106,7 @@ p
 
 .jules:hover, figcaption:hover
 {
-    color: var(--softblue);
+    color: var(--cyan);
     cursor: pointer;
 }
 
